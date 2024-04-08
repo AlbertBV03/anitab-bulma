@@ -1,0 +1,88 @@
+/* Clases personalizadas */
+
+body {
+    background-color: #2467C2; /* Color de fondo de la pagina */
+}
+
+p {
+    text-align: justify;
+}
+
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: none;
+}
+
+.accordion-bg2 {
+    background-color: #2467C2;/* Color de fondo del Acordeon 1 */
+
+}
+
+.accordion-bg1 {
+    background-color: #1F50AA; /* Color de fondo del Acordeon 2 */
+}
+
+.carrusel-img {
+    max-width: 300px; 
+    height: 200px;
+}
+.footer-custom {
+    background-color: #00214D; /* Color de fondo del footer de la pagina */
+}
+
+.navbar-custom {
+    background-color: #1F50AA; /* Color de fondo del navbar*/
+}
+
+.bg-image { /* Imagen de fondo del titulo de la pagina */
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-image-url { /* Imagen de fondo para seccion*/
+    background-image: url('../img/sea-86425_1920.jpg');
+}
+
+.card-custom { /* Tamaño personalizado para cards*/
+    height: 400px;
+}
+
+.bg-section2 { /* Seccion de mision, vision y valores*/
+    background-size: cover;
+    background-position: center;
+    background-color: #2467C2;
+}
+
+.bg-section3 { /*Seccion informativa sobre los animales de tabasco*/
+    background-size: cover;
+    background-position: center;
+    background-color: #1F50AA;
+}
+
+.bg-sectionad { /* Seccion de acerca de */
+    background-size: cover;
+    background-position: center;
+    background-color: #2467C2;
+    height: 655px;
+}
+
+.bg-sectioncontacto { /* Seccion de contactanos */
+    background-size: cover;
+    background-position: center;
+    background-color: #2467C2;
+    height: 655px;
+}
+
+/* CCS Especies*/
+
+.esp-sec1 { /*Seccion 1*/
+    background-size: cover;
+    background-position: center;
+    background-color: #1F50AA;
+}
+
+/* Texto justificado */
+.text-justify {
+    text-align: justify;
+}
