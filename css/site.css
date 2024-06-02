@@ -86,3 +86,44 @@ p {
 .text-justify {
     text-align: justify;
 }
+
+/* Modal */
+
+.modal {
+    display: none;
+  }
+  
+  .modal.is-active {
+    display: flex;
+  }
+  
+  .modal-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9998;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    z-index: 9999;
+    color: black;
+  }
+  
+  .modal-close {
+    background-color: transparent;
+    border: none;
+    color: #000;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  
